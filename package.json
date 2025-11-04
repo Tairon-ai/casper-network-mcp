@@ -1,0 +1,27 @@
+{
+  "name": "casper-network-mcp",
+  "version": "0.1.0",
+  "description": "Production-ready Model Context Protocol (MCP) server for Casper Network",
+  "main": "mcp/index.js",
+  "author": "Tairon.ai",
+  "homepage": "https://tairon.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tairon-ai/casper-network-mcp.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "mcp": "node mcp/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.6.0",
+    "casper-js-sdk": "^5.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  }
+}
